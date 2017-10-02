@@ -1,0 +1,77 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8"> <!-- định dạng unicode -->
+	<title> website của nhóm web by thuypm.tk</title>  <!-- tiêu đề website -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="shortcut icon" href="./imgs/favicon.ico"> 
+	
+</head>
+<!-- hết phần head khai báo -->
+<body>
+	<div class="anhdau">
+		<img src="./imgs/banner.JPG">
+
+	</div>
+
+
+	<div class="menu">
+		<span><a href="">TRANG CHỦ</a> </span> <span><a href="">GIỚI THIỆU</a></span> <span><a href=""> LIÊN HỆ </a></span>
+	</div>
+
+	<div class="danhmuc">
+
+		<div class="icondanhmuc">			
+			<img src="./imgs/icon.jpg">
+		</div>
+
+		<div class="tieudedanhmuc">
+			<h1>Bó, lãng hoa </h1>
+		</div>
+	</div>
+
+	<div class="divider"></div>
+
+	<div class="sp">
+		<div class="sp1">
+			<img src="./imgs/BH-01.jpg">
+			<a href="" onclick="alert('Ông ngây thơ thế, làm éo gì có chiện đó')"><h4>Mã SP : <span class="masp">BH1</span></h4>
+			<h4> Giá: <span class="gia"> miễn phí ngay lúc này. mua đê </span></h4></a>
+		</div>
+		<div class="sp2">
+			<img src="./imgs/HH-02.jpg">
+			<h4>Mã SP : <span class="masp">BH2</span></h4>
+			<h4> Giá: <span class="gia"> 200k </span></h4>
+		</div>
+		<div class="sp3">
+			<img src="./imgs/BH-03.jpg">
+			<h4>Mã SP : <span class="masp">BH3</span></h4>
+			<h4> Giá: <span class="gia"> 200k </span></h4>
+		</div>
+		<div class="sp4">
+			<img src="./imgs/BH-04.jpg">
+			<h4>Mã SP : <span class="masp">BH4</span></h4>
+			<h4> Giá: <span class="gia"> 200k </span></h4>
+		</div>
+		<div class="sp5">
+			<img src="./imgs/GH-01.jpg">
+			<h4>Mã SP : <span class="masp">GH1</span></h4>
+			<h4> Giá: <span class="gia"> 200k </span></h4>
+		</div>
+	</div>
+
+</body>
+
+<script>
+var txt="  website của nhóm web by thuypm.tk  <3 !";
+var espera=200;
+var refresco=null;
+function rotulo_title() {
+document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresco=setTimeout("rotulo_title()",espera);
+}
+rotulo_title();
+</script>
+
+</html>
