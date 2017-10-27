@@ -21,7 +21,10 @@
 	  background-image:url(imgs/images.jpg);
  background-size: 1920px 1080px;
  background-repeat:no-repeat;
- display: compact;
+ background-attachment: fixed;
+ 
+ 
+
  
  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-top: 117px; 
@@ -59,48 +62,61 @@
         </form>
       </div>
     </nav>
+     
 
-    <div class="container-fluid">
-      <div class="row">
-      <nav style="float: left"> 
+    <div class="container-fluid"> 
+     
+      <div class="fixed-top" style="float:left; top: 116px" >
+      <nav id="navbar-fixed-left"> 
       <div> <img src="imgs/Untitled.jpg"  width="250" height="290"  class="rounded " >
       </div>
        <img src="imgs/animated-microphone-image-0040.gif" width="30" height="30" style="margin-top 0px; margin-right: 20px" class="rounded" alt="Generic placeholder thumbnail">
-      <h4 style="color: green"> Nếu như ngày ấy </H4>
-      <h4 style="color: green"> Anh không lặng im </H4>
-      <h4 style="color: green"> Chẳng để thời gian </H4>
-      <h4 style="color: green"> Trôi qua vội vàng... <H4>
-     
-     
+      <p style="font-size:15px; color:  green"> <b>
+       It seems that you did not come back <br>
+And I can't be younger again, forever <br>
+The time is running as fast as a bolide,<br/>
+In our moments,<br/>
+We were far from our happiness,<br/> but I only want to hug you inside me,<br/>
+Atthought the life is very short<br/> but why is the miss so long ?<br/>
+And It is so large enough to me <br/>For hope I can be as young <br/>As I was yesterday,<br/>
+A little boy of you, forever....
+      </b></p>
+      
       
       
        </nav>
+     </div>
+   </div>
+     
+ 
+ 
         
-        <main class="col-sm-9 ml-sm-auto col-md-10 pt-3"  role="main" >
+        <main class="col-sm-9 ml-sm-auto col-md-10 pt-3"  role="main" style="padding-left: 150px">
           
 
           <section class="row text-center placeholders">
             <div class="col-6 col-sm-3 placeholder">
-             <img src="imgs/_MG.jpg"	 width="195s" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-             <button type="button" class="btn btn-outline-danger" style="margin-top:10px"><h5> Thông tin về tôi</h5></button>
+            <a href=""> <img src="imgs/_MG.jpg"	 width="195s" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <a   href="" > <h5 style="margin-top: 10px; color: red;"> Thông tin về tôi </h5> </a>
+          
              
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="imgs/58110950.png" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+              <a href="">  <img src="imgs/58110950.png" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
          
           
-          <button type="button" class="btn btn-outline-success" style=" margin-top:10px"><h5>Sản phẩm đã làm </h5></button>
+           <a  href=""> <h5 style="margin-top: 10px;color: green;"> Sản phẩm đã làm </h5> </a>
    
               
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="imgs/album.jpg"width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-             <button type="button" class="btn btn-outline-primary"  style=" margin-top:11px"><h5>Album ảnh của tôi</h5></button>
+               <a href=""> <img src="imgs/album.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+             <a  href=""> <h5 style="margin-top: 10px;color: black"> Album ảnh của tôi </h5> </a>
             
             </div>
             <div class="col-6 col-sm-3 placeholder">
-              <img src="imgs/musicvideo-banner.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <button type="button" class="btn btn-outline-secondary" style="margin-top:25px"><h5>Âm nhạc và video</h5></button>
+               <a href=""> <img src="imgs/musicvideo-banner.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+               <a  href=""> <h5 style="margin-top: 10px;color: grey;"> Âm nhạc và video</h5> </a>
              
             </div>
             
@@ -140,5 +156,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
   </body>
 </html>
